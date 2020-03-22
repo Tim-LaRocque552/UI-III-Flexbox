@@ -64,3 +64,249 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+body {
+	margin: 20px 80px 20px 80px;
+}
+
+.header {
+	
+	display: flex;
+	flex-flow: row;
+	width: 100%;
+	height: 100px;
+	justify-content: space-between;
+}
+
+nav {
+	display: inline-block
+	width: 700px;
+	height: 75px;
+	margin-top: 25px;
+	font-size: medium;
+	word-spacing: 200px;
+	color: rgb(192, 184, 186);
+}
+
+.logo {
+	display: inline-block;
+	width: 200px;
+	height: 75px;
+}
+
+.box{
+	display: flex;
+	flex-direction: row;
+	margin-top: 25px;
+	width: 100%;
+	height: 500px;
+	justify-content: space-between;
+	border-bottom: 2px solid black;
+}
+
+.top-content {
+	display: inline-block;
+	font-size: 50px;
+	font-weight: bolder;
+	font-family: 'Bangers', 'cursive';
+	font-size: 60px;
+	vertical-align: top;
+	width: 900px;
+	height: 100%;
+	text-align: center;
+}
+
+.top-content-image {
+	display: inline-block;
+	vertical-align: top;
+	width: 450px;
+	height: 100%;
+	text-align: center;
+}
+
+.button {
+	border: 1px solid black;
+	width: 125px;
+	height: 25px;
+	background-color: white;
+}
+
+.box-2{
+	display: flex;
+	flex-direction: row;
+	margin-top: 50px;
+	width: 100%;
+	height: 175px;
+	justify-content: space-between;
+}
+
+.level_2_content_left {
+	display: inline-block;
+	flex-grow: 1;
+	width: 50%;
+	height: 100%;
+	vertical-align: top;
+	font-size: 20px;
+}
+
+.level_2_content_right {
+	display: inline-block;
+	flex-grow: 1;
+	width: 50%;
+	height: 100% ;
+	vertical-align: top;
+	font-size:  20px;
+}
+
+.img_3 {	
+	width: 100%;
+	height: 200px;
+}
+
+.box-3{
+	display: flex;
+	flex-direction: row;
+	margin-top: 100px;
+	padding-bottom: 100px;
+	width: 100%;
+	height: 150px;
+	border-bottom: 2px solid black;
+}
+
+  .level_4_content_left {
+	display: inline-block;
+	flex-grow: 1;
+    vertical-align: top;
+	width: 25%;
+	height: 150px;
+	font-size: 20px;
+  }
+
+  .level_4_content_mid {
+	display: inline-block;
+	flex-grow: 1;
+    vertical-align: top;
+	width: 25%;
+	height: 150px;
+	font-size: 20px;
+  }
+
+  .level_4_content_right{
+	display: inline-block;
+	flex-grow: 1;
+    vertical-align: top;
+	width: 25%;
+	height: 150px;
+	font-size: 20px;
+  }
+	
+  .box-4 {
+	margin-top: 25px;
+	padding-top: 25px;
+	height: 200px;
+	width: 20%;
+  }
+
+  .footer {
+	text-align: center;
+	height: 25px;
+	width: 100%;
+  }
+
+  /*  Start of CSS for Services Page! */
+
+
+
+
+
+.service-header {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 600px;
+}
+
+.services-header-img {
+	display: inline-block;
+	width: 100%;
+	height: 300px;
+	margin-bottom: 50px;
+}
+
+.serives {
+	display: inline-block;
+	width: 100%;
+}
+
+.TextClass-h1 {
+    font-size: 30px;
+	margin-bottom:4%;
+}
+
+.HeaderClass-h1 {
+	font-size: 40pt;
+}
+
+.SectionClass {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 100%;
+	height: 1300px;
+	border-bottom: 2px solid black;
+}
+.DivClass {
+	display: inline-block;
+	width: 750px;
+	height: 350px;
+	background-color: powderblue;
+	margin: 25px;
+    border: .5px solid black;
+}
+.HeaderClass-h2{
+	font-size: 30px;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+.TextClass{
+    font-size: 25px;
+	margin-bottom:4%;
+	padding: 10px;
+}
+
+.button {
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 8px;
+	margin-left: 20px;
+}
+
+.ServiceFooter {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+	height: 500px;
+	padding-top: 50px;
+	border-top: 2px solid black;
+}
+
+.FooterClass {
+	display: inline-block;
+	width: 500px;
+	height: 500px;
+	
+}
+
+.FooterClass {
+	display: inline-block;
+	width: 600px;
+	height: 500px;
+	
+}
+
+ul {
+	list-style-type: circle;
+	color: black;
+}
+
+	
